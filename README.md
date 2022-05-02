@@ -2,6 +2,10 @@
 
 This is an opinionated PWA ready sveltekit starter project with folders structured in favor of the [Clean Architecture](https://github.com/bespoyasov/frontend-clean-architecture).
 
+Preview [link](https://sveltekit-starter-preview.vercel.app/)
+
+---
+
 ## Features
 
 - [HTML template](https://www.joshwcomeau.com/snippets/html/html-skeleton/) by Joshua Comeau for basic SEO support
