@@ -1,0 +1,16 @@
+{
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "SvelteKit Starter",
+  "short_name": "SvelteKit Starter",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "160x160",
+      "type": "image/png"
+    }
+  ]
+}

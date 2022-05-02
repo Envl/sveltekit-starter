@@ -17,6 +17,10 @@ This is an opinionated PWA ready sveltekit starter project with folders structur
 - utilities
   - device detection
 
+## TODO
+
+- service worker support offline usage
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
