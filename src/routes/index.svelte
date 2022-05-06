@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Footer from '$lib/component/Footer.svelte'
 </script>
 
 <main class="px-8 py-8 flex flex-col h-full">
@@ -47,9 +48,7 @@
       </ul>
     </li>
   </ul>
-  <footer class="text-center mt-auto">
-    Created by <a href="https://gnimoay.com" target="_blank">GnimOay</a>
-  </footer>
+  <Footer />
 </main>
 
 <style lang="scss">
