@@ -11,46 +11,46 @@ const urlRegex = new RegExp(
  * https://github.com/juliangarnier/anime/blob/3ebfd913a04f7dc59cc3d52e38275272a5a12ae6/src/index.js#L49
  */
 const is = {
-  arr: function (a: any) {
+  arr(a: any) {
     return Array.isArray(a)
   },
-  obj: function (a: any) {
+  obj(a: any) {
     return stringContains(Object.prototype.toString.call(a), 'Object')
   },
-  pth: function (a: any) {
+  pth(a: any) {
     return is.obj(a) && a.hasOwnProperty('totalLength')
   },
-  svg: function (a: any) {
+  svg(a: any) {
     return a instanceof SVGElement
   },
-  inp: function (a: any) {
+  inp(a: any) {
     return a instanceof HTMLInputElement
   },
-  dom: function (a: any) {
+  dom(a: any) {
     return a.nodeType || is.svg(a)
   },
-  str: function (a: any) {
+  str(a: any) {
     return typeof a === 'string'
   },
-  fnc: function (a: any) {
+  fnc(a: any) {
     return typeof a === 'function'
   },
-  und: function (a: any) {
+  und(a: any) {
     return typeof a === 'undefined'
   },
-  nil: function (a: any) {
+  nil(a: any) {
     return is.und(a) || a === null
   },
-  hex: function (a: any) {
+  hex(a: any) {
     return /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(a)
   },
-  rgb: function (a: any) {
+  rgb(a: any) {
     return /^rgb/.test(a)
   },
-  hsl: function (a: any) {
+  hsl(a: any) {
     return /^hsl/.test(a)
   },
-  col: function (a: any) {
+  col(a: any) {
     return is.hex(a) || is.rgb(a) || is.hsl(a)
   },
 

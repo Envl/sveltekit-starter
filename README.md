@@ -13,13 +13,16 @@ Preview [link](https://sveltekit-starter-preview.vercel.app/)
 - [SASS](https://sass-lang.com/) setup (it's useful sometimes)
 - CSS reset based on [Joshua Comeau's article](https://www.joshwcomeau.com/css/custom-css-reset/)
 - [Prettier](https://prettier.io/) setup
+  - tab width of 6 spaces
+- [Vitest](https://vitest.dev/)
 - TypeScript support
 - QR Code for localhost URL printed in terminal with the support of [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal)
-- 2 frequently used Svelte actions:
-  - clickoutside
-  - pannable
 - utilities
   - device detection
+  - 2 frequently used Svelte actions:
+    - clickoutside
+    - pannable
+  - more useful actions and utils from [@svelteuidev/composables](https://www.svelteui.org/installation)
 
 ## TODO
 

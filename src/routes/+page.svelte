@@ -8,29 +8,32 @@
   </h1>
   <p>
     This is an opinionated PWA ready sveltekit starter project with folders structured in favor of
-    the <a href="https://github.com/bespoyasov/frontend-clean-architecture" target="_blank">
-      Clean Architecture</a
-    >.
+    the <a href="https://github.com/bespoyasov/frontend-clean-architecture"> Clean Architecture</a>.
   </p>
+  <div>
+    <a href="https://github.com/Envl/sveltekit-starte">Github</a>
+  </div>
 
   <h2 class="text-xl font-bold mt-4 mb-2 ">Features</h2>
   <ul>
     <li>
-      <a href="https://www.joshwcomeau.com/snippets/html/html-skeleton/" target="_blank"
-        >HTML template</a
-      > by Joshua Comeau for basic SEO support
+      <a href="https://www.joshwcomeau.com/snippets/html/html-skeleton/">HTML template</a> by Joshua
+      Comeau for basic SEO support
     </li>
     <li>
-      <a href="https://tailwindcss.com/docs/guides/sveltekit" target="_blank"> tailwindcss </a> setup
+      <a href="https://tailwindcss.com/docs/guides/sveltekit"> tailwindcss </a> setup
     </li>
-    <li><a href="https://sass-lang.com/" target="_blank">SASS</a> setup (it's useful sometimes)</li>
+    <li><a href="https://sass-lang.com/">SASS</a> setup (it's useful sometimes)</li>
     <li>
-      CSS reset based on <a href="https://www.joshwcomeau.com/css/custom-css-reset/" target="_blank"
+      CSS reset based on <a href="https://www.joshwcomeau.com/css/custom-css-reset/"
         >Joshua Comeau's article</a
       >
     </li>
     <li>
-      <a href="https://prettier.io/" target="_blank">Prettier</a> setup
+      <a href="https://prettier.io/">Prettier</a> setup
+    </li>
+    <li>
+      <a href="https://vitest.dev/">Vitest</a> installed
     </li>
     <li>TypeScript support</li>
     <li>
@@ -41,10 +44,20 @@
       >
     </li>
     <li>
-      2 frequently used Svelte actions:
+      utilities
       <ul>
-        <li>clickoutside</li>
-        <li>pannable</li>
+        <li>device detection</li>
+        <li>
+          2 frequently used Svelte actions:
+          <ul>
+            <li>clickoutside</li>
+            <li>pannable</li>
+          </ul>
+        </li>
+        <li>
+          more useful actions and utils from
+          <a href="https://www.svelteui.org/installation"> @svelteuidev/composables</a>
+        </li>
       </ul>
     </li>
   </ul>

@@ -1,22 +1,25 @@
 import { sveltekit } from '@sveltejs/kit/vite'
 
 // enable if need https for localhost
-// import mkcert from 'vite-plugin-mkcert'
+import mkcert from 'vite-plugin-mkcert'
 
 /** @type {import('vite').UserConfig} */
-const config = {
-  plugins: [
-    // mkcert(),
-    sveltekit(),
-  ],
+ const config = {
+  plugins: [mkcert(), sveltekit()],
   server: {
     strictPort: false,
     port: 3000,
-    // https: true,
+    https: true,
   },
+
+  test:{
+		include: ['src/**/*.{test,spec}.{js,ts}']
+  }
+
 }
 
 export default config
+
 
 import { networkInterfaces } from 'os'
 import qrcode from 'qrcode-terminal'
@@ -36,7 +39,7 @@ if (process.env.NODE_ENV === 'development') {
       }
     }
   }
-  console.log({ nets, results })
+
 
   const ip = nets.en0[0]
   const lanAddress = `http${config.server.https ? 's' : ''}://${ip}:${config.server.port}`
