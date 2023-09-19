@@ -5,6 +5,7 @@ This is an opinionated PWA ready sveltekit starter project with folders structur
 Preview [link](https://sveltekit-starter-preview.vercel.app/)
 
 ---
+stars: ![stars_qq](https://envl-qq_svg.web.val.run/envl/sveltekit-starter)
 
 ## Features
 
